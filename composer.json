@@ -1,0 +1,12 @@
+{
+    "name": "jsalimyanova/ott",
+    "authors": [
+        {
+            "name": "jsalimyanova",
+            "email": "jsalimyanova@condenast.ru"
+        }
+    ],
+    "require": {
+        "codeception/codeception": "^2.5"
+    }
+}

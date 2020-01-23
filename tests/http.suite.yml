@@ -1,0 +1,11 @@
+actor: HttpTester
+
+modules:
+    enabled:
+        - \Helper\Http
+        - PhpBrowser:
+              url: 'https://www.onetwotrip.com/'
+gherkin:
+    contexts:
+        default:
+            - HttpTester

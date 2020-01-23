@@ -1,0 +1,15 @@
+actor: ApiTester
+
+modules:
+    enabled:
+        - \Helper\Api
+        - PhpBrowser:
+              url: 'https://www.onetwotrip.com/'
+        - REST:
+              depends: PhpBrowser
+              url: 'https://www.onetwotrip.com/'
+              part: Json
+gherkin:
+    contexts:
+        default:
+            - APITester
