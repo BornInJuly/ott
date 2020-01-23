@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="api" tests="1" assertions="5" errors="0" failures="0" skipped="0" time="0.142222">
-    <testcase file="/Users/jsalimyanova/OTT/tests/api/QueryCheckCest.php" name="tryToTest" class="QueryCheckCest" feature="try to test" assertions="5" time="0.142222"/>
-  </testsuite>
-  <testsuite name="http" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.188205">
-    <testcase file="/Users/jsalimyanova/OTT/tests/http/RedirectCheckCest.php" name="tryToTest" class="RedirectCheckCest" feature="try to test" assertions="1" time="0.188205"/>
-  </testsuite>
-</testsuites>
